@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="R1NjH5Pmpxt0505AlhBA">
+    <mxGraphModel dx="1631" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-6" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="PwfFsmH3J6lKeynTmVfn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="Customer App / Website/Restaurant&lt;br&gt;&lt;br&gt;• Browse restaurants&lt;div&gt;• Select menu items&lt;br&gt;• Place order&lt;br&gt;• Track delivery&lt;/div&gt;&lt;div&gt;=&amp;gt; add items as restaurant&lt;/div&gt;&lt;div&gt;=&amp;gt; set prices&lt;/div&gt;&lt;div&gt;=&amp;gt; receive order&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="350" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-7" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="PwfFsmH3J6lKeynTmVfn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;" value="Load Balancer&lt;br&gt;&lt;br&gt;Routes traffic; distributes requests" vertex="1">
+          <mxGeometry height="95" width="170" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-8" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.465;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" target="PwfFsmH3J6lKeynTmVfn-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-6" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="M7u-tShtvOc4c5nKwcnm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-25" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="M7u-tShtvOc4c5nKwcnm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" value="Backend API / Application Server&lt;br&gt;&lt;br&gt;Authentication • API handling • Business logic" vertex="1">
+          <mxGeometry height="120" width="190" x="235" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="Database&lt;br&gt;&lt;br&gt;Customers • Restaurants • Menus • Orders • Payments • Delivery status" vertex="1">
+          <mxGeometry height="120" width="270" x="510" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" value="External Payment Gateway&lt;br&gt;&lt;br&gt;UPI / Cards / Wallet&lt;br&gt;Payment confirmation &amp; callback" vertex="1">
+          <mxGeometry height="105" width="290" x="40" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PwfFsmH3J6lKeynTmVfn-9" edge="1" parent="1" source="PwfFsmH3J6lKeynTmVfn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.475;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="PwfFsmH3J6lKeynTmVfn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;dashPattern=6 4;fontSize=14;fontStyle=1;" value="Application Services" vertex="1">
+          <mxGeometry height="305" width="605.29" x="690" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-2" parent="M7u-tShtvOc4c5nKwcnm-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="Restaurant &amp; Menu Service&lt;br&gt;Browse/search restaurants; menus" vertex="1">
+          <mxGeometry height="92.3264682107335" width="205.29" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-3" parent="M7u-tShtvOc4c5nKwcnm-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;" value="Order Service&lt;br&gt;Create order; status &amp; order history" vertex="1">
+          <mxGeometry height="63.169613046075995" width="195.29" x="410" y="107.19432045829966" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-4" parent="M7u-tShtvOc4c5nKwcnm-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="Payment Service&lt;br&gt;Initiate payment; verify result" vertex="1">
+          <mxGeometry height="44.02470741222367" width="195.29" x="410" y="192.9497768249394" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-5" parent="M7u-tShtvOc4c5nKwcnm-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" value="Delivery / Tracking Service&lt;br&gt;Assign rider; live location &amp; ETA" vertex="1">
+          <mxGeometry height="63.169613046075995" width="175.29" x="430" y="259.4102555090852" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-23" parent="M7u-tShtvOc4c5nKwcnm-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" value="Add items as restaurant" vertex="1">
+          <mxGeometry height="92.33" width="175.29" x="200" y="14.86" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-9" edge="1" parent="1" source="M7u-tShtvOc4c5nKwcnm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="PwfFsmH3J6lKeynTmVfn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" value="&lt;br&gt;&lt;div&gt;Delivery Driver&lt;/div&gt;&lt;div&gt;=&amp;gt; deliver items&lt;/div&gt;&lt;div&gt;=&amp;gt; get payment&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="139.53" width="175.29" x="25" y="41.260000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="M7u-tShtvOc4c5nKwcnm-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="Notification Gateway&lt;div&gt;&lt;br&gt;&lt;div&gt;=&amp;gt; notify User&lt;/div&gt;&lt;div&gt;=&amp;gt; notify drivers around&lt;/div&gt;&lt;div&gt;=&amp;gt; notify restaurant&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92.33" width="190" x="10.29" y="427.67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="alnNuSSNby3_Mb-Sx9Sg" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-4" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-1" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;USERS&lt;/b&gt;&lt;hr&gt;PK  user_id&lt;br&gt;name&lt;br&gt;email (UNIQUE)&lt;br&gt;phone&lt;br&gt;password_hash" vertex="1">
+          <mxGeometry height="160" width="220" x="980" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-2" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;RESTAURANTS&lt;/b&gt;&lt;hr&gt;PK  restaurant_id&lt;br&gt;restaurant_name&lt;br&gt;location&lt;br&gt;rating" vertex="1">
+          <mxGeometry height="140" width="230" x="980" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-16" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1.001;entryY=0.382;entryDx=0;entryDy=0;entryPerimeter=0;" target="LZd1Io1ZJ94QJqvPwuMv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-3" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;ADDRESSES&lt;/b&gt;&lt;hr&gt;PK  address_id&lt;br&gt;FK  user_id&lt;br&gt;full_address&lt;br&gt;city&lt;br&gt;pincode" vertex="1">
+          <mxGeometry height="160" width="220" x="1370" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-9" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-17" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-6" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;ORDERS&lt;/b&gt;&lt;hr&gt;PK  order_id&lt;br&gt;FK  user_id&lt;br&gt;FK  address_id&lt;br&gt;FK  restaurant_id&lt;br&gt;order_date&lt;br&gt;total_amount&lt;br&gt;order_status" vertex="1">
+          <mxGeometry height="200" width="240" x="1250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-8" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;ORDER_ITEMS&lt;/b&gt;&lt;hr&gt;PK  order_item_id&lt;br&gt;FK  order_id&lt;br&gt;FK  item_id&lt;br&gt;quantity&lt;br&gt;price_at_order" vertex="1">
+          <mxGeometry height="170" width="240" x="1680" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-14" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-11" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;PAYMENTS&lt;/b&gt;&lt;hr&gt;PK  payment_id&lt;br&gt;FK  order_id (UNIQUE)&lt;br&gt;payment_method&lt;br&gt;payment_status&lt;br&gt;transaction_id" vertex="1">
+          <mxGeometry height="170" width="260" x="1410" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-12" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.411;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-13" parent="1" style="rounded=1;whiteSpace=html;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;DELIVERIES&lt;/b&gt;&lt;hr&gt;PK  delivery_id&lt;br&gt;FK  order_id (UNIQUE)&lt;br&gt;delivery_partner_id&lt;br&gt;current_location&lt;br&gt;delivery_status" vertex="1">
+          <mxGeometry height="170" width="240" x="1090" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-15" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZd1Io1ZJ94QJqvPwuMv-18" edge="1" parent="1" source="LZd1Io1ZJ94QJqvPwuMv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LZd1Io1ZJ94QJqvPwuMv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
